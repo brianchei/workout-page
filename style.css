@@ -19,6 +19,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0px 208px;
+    flex: auto;
 }
 
 .header-logo {
@@ -50,6 +51,7 @@ a.splits {
     height: auto;
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
 
 .upper {
@@ -59,6 +61,7 @@ a.splits {
     justify-content: space-between;
     align-items: center;
     padding: 52px 208px;
+    flex: auto;
 }
 
 .upper .left,
@@ -105,6 +108,7 @@ button {
     gap: 32px;
     padding: 16px 0px;
     background-color: #FFFFFF;
+    flex: auto;
 }
 
 .subtitle {
@@ -147,6 +151,7 @@ button {
     background-color: #9AD4D6;
     align-items: center;
     justify-content: center;
+    flex: auto;
 }
 
 .quote-box {
@@ -173,6 +178,7 @@ blockquote {
     align-items: center;
     color: #F9FAF8;
     background-color: #FFFFFF;
+    flex: auto;
 }
 
 .call-to-action {
@@ -201,6 +207,7 @@ blockquote {
     color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    flex: auto;
 }
 
 /* Gloria page */
@@ -213,6 +220,7 @@ blockquote {
     background-color: #0D1B2A;
     color: #FFFFFF;
     flex-direction: column;
+    flex: auto;
 }
 
 .home {
@@ -230,6 +238,7 @@ blockquote {
 .weeks {
     display: flex;
     flex-direction: column;
+    flex: auto;
 }
 
 .two-workout {
@@ -324,4 +333,11 @@ h2 {
     gap: 16px;
     align-self: flex-start;
     padding: 0px 8px;
+    flex: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .horizontal-list {   
+        flex-direction: column;
+    }
 }
